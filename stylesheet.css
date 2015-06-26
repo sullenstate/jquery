@@ -1,13 +1,11 @@
-/* >>>>>>>> Part 1 <<<<<<<< */
-/*.pageContainer {
+.pageContainer {
 	position: relative;
 	text-align: center;
+	height: 800px;
 }
 
 .pageContainer div {
-	display: inline-block;
 	padding: .5em;
-	background-color: #888;
 	border-radius: 5px;
 	font-size: 20pt;
 }
@@ -21,5 +19,28 @@ input {
 
 ul {
 	width: 25%;
-}*/
- /*>>>>>>>> End Part 1 <<<<<<<< */
+}
+
+.button {
+  	position: absolute;
+  	display: inline-block;
+  	width: 33%;
+  	top: 50%;
+  	left: 33%;
+  	background-color: #aaa;
+}
+
+.button:hover {
+	background-color: #888;
+}
+
+.popUp {
+  display: block;
+  width: 50%;
+  height: 50%;
+  background-color: #ccc;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
