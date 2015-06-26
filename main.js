@@ -42,8 +42,7 @@
 $(document).ready(function(){
 	$('.main').click( function(){
 		$('.pageContainer').append("<div class='popUp'><h2>This is my popup message.</h2><div class='button second'>Make me go away!</div></div>");
-	});
-	
+	});	
 	$('.pageContainer').on('click', '.popUp', function(){
 		$('.popUp').remove();
 	});
